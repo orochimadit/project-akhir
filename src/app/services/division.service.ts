@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Division } from '../model/division.model';
 
-const baseUrl = 'http://spa-api.aqiladigital.com/api/divisions'
+const baseUrl = 'https://spa-api.aqiladigital.com/api/divisions'
 @Injectable({
   providedIn: 'root'
 })
